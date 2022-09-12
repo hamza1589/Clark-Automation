@@ -16,20 +16,21 @@ public class LoginPageTest extends TestBase {
     String sheetName = "data";
 
 
-    public LoginPageTest(){
+    public LoginPageTest() {
         super();
     }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         initialization();
-         testUtil=new TestUtil();
-        homePage=new HomePage();
-        webstaurantHomePage=new WebstaurantHomePage();
-        webstaurantHomePage=homePage.clickOnDistribution();
+        testUtil = new TestUtil();
+        homePage = new HomePage();
+        webstaurantHomePage = new WebstaurantHomePage();
+        webstaurantHomePage = homePage.clickOnDistribution();
 
 
     }
+
     @DataProvider
     public Object[][] getData() {
         Object data[][] = TestUtil.getTestData(sheetName);
@@ -37,20 +38,19 @@ public class LoginPageTest extends TestBase {
 
 
     }
-    @Test(dataProvider ="getData")
-    public void validateUserCanEnterCredentials(String email,String password){
+
+    @Test(dataProvider = "getData")
+    public void validateUserCanEnterCredentials(String email, String password) {
         TestUtil.switchToWindows();
         webstaurantHomePage.clickOnLoginButton();
-        webstaurantHomePage.enteringCredentials(email,password);
+        webstaurantHomePage.enteringCredentials(email, password);
 
     }
+
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
-
-
-
 
 
 }

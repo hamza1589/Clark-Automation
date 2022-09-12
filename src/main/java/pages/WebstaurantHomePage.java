@@ -11,7 +11,7 @@ import java.util.List;
 
 public class WebstaurantHomePage extends TestBase {
 
-    @FindBy(xpath="//div[@class='awesomplete']/input")
+    @FindBy(xpath = "//div[@class='awesomplete']/input")
     WebElement searchBar;
 
     @FindBy(xpath = "//button[@value='Search']")
@@ -23,16 +23,16 @@ public class WebstaurantHomePage extends TestBase {
     @FindBy(xpath = "//span[@class='whitespace-nowrap bg-white py-0 px-1 absolute text-gray-800']/span[text()='178ubb72shc']")
     WebElement orderNumber;
 
-    @FindBy(xpath="//span[text()='Login to your']")
+    @FindBy(xpath = "//span[text()='Login to your']")
     WebElement loginButton;
 
-    @FindBy(id="email")
+    @FindBy(id = "email")
     WebElement emailField;
 
-    @FindBy(id="password")
+    @FindBy(id = "password")
     WebElement passwordField;
 
-    @FindBy(id="the_login_button")
+    @FindBy(id = "the_login_button")
     WebElement submitButton;
 
     public WebstaurantHomePage() {
@@ -66,8 +66,8 @@ public class WebstaurantHomePage extends TestBase {
 
         int listCount = list.size();
         for (int i = 1; i <= listCount; i++) {
-            String orderNumber=listOrders.get(i).getText();
-            if(orderNumber.equalsIgnoreCase("#178HBB95HC")){
+            String orderNumber = listOrders.get(i).getText();
+            if (orderNumber.equalsIgnoreCase("#178HBB95HC")) {
                 list.get(i).click();
                 break;
             }
@@ -77,11 +77,12 @@ public class WebstaurantHomePage extends TestBase {
 
     }
 
-    public LoginPage clickOnLoginButton(){
+    public LoginPage clickOnLoginButton() {
         loginButton.click();
         return new LoginPage();
     }
-    public void enteringCredentials(String eml,String pass){
+
+    public void enteringCredentials(String eml, String pass) {
         emailField.sendKeys(eml);
         passwordField.sendKeys(pass);
         submitButton.click();

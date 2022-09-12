@@ -11,27 +11,28 @@ public class WebStaurantHomePageTest extends TestBase {
     HomePage homePage;
     WebstaurantHomePage webstaurantHomePage;
 
-    public WebStaurantHomePageTest(){
+    public WebStaurantHomePageTest() {
         super();
     }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         initialization();
-        homePage=new HomePage();
-        webstaurantHomePage=new WebstaurantHomePage();
-        webstaurantHomePage=homePage.clickOnDistribution();
+        homePage = new HomePage();
+        webstaurantHomePage = new WebstaurantHomePage();
+        webstaurantHomePage = homePage.clickOnDistribution();
 
 
     }
+
     @Test(priority = 1)
-    public void getListOfAllItems(){
+    public void getListOfAllItems() {
         webstaurantHomePage.clickOnSearchBar();
         webstaurantHomePage.selectItem();
     }
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }

@@ -10,34 +10,38 @@ import pages.HomePage;
 public class HomePageTest extends TestBase {
     HomePage homePage;
 
-    public HomePageTest(){
+    public HomePageTest() {
         super();
     }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         initialization();
-        homePage=new HomePage();
+        homePage = new HomePage();
 
     }
+
     @Test(priority = 0)
-    public void validateTitleHomePage(){
-        String title=homePage.validateTitle();
-        Assert.assertEquals(title,"Clark Associates Inc.");
+    public void validateTitleHomePage() {
+        String title = homePage.validateTitle();
+        Assert.assertEquals(title, "Clark Associates Inc.");
 
     }
+
     @Test(priority = 1)
-    public void validateClarkLogoHomePage(){
-        boolean flag=homePage.validateClarkLogo();
+    public void validateClarkLogoHomePage() {
+        boolean flag = homePage.validateClarkLogo();
         Assert.assertTrue(flag);
     }
+
     @Test(priority = 2)
-    public void validateUserIsAbleToClickOnDistributionTab(){
+    public void validateUserIsAbleToClickOnDistributionTab() {
         homePage.clickOnDistribution();
 
     }
+
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 

@@ -15,10 +15,10 @@ public class TestBase {
     public static WebDriver driver;
     public static Properties properties;
 
-    public TestBase(){
-        properties=new Properties();
+    public TestBase() {
+        properties = new Properties();
         try {
-            FileInputStream fileInputStream=new FileInputStream("src/main/java/config/config.properties");
+            FileInputStream fileInputStream = new FileInputStream("src/main/java/config/config.properties");
             properties.load(fileInputStream);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -28,15 +28,15 @@ public class TestBase {
 
     }
 
-    public static void initialization(){
-        String browserName=properties.getProperty("browser");
-        if(browserName.equals("chrome")){
+    public static void initialization() {
+        String browserName = properties.getProperty("browser");
+        if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
                     "C://Users//hamza//Downloads//chromedriver_win32 (6)//chromedriver.exe");
-            driver=new ChromeDriver();
-        }else{
+            driver = new ChromeDriver();
+        } else {
             System.setProperty("webdriver.gecko.driver", "C://Users//hamza//Downloads//geckodriver-v0.30.0-win64//geckodriver.exe");
-            driver=new FirefoxDriver();
+            driver = new FirefoxDriver();
         }
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
