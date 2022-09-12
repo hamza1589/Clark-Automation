@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="164977" started-at="2022-09-12T08:19:04 EDT" finished-at="2022-09-12T08:21:49 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="164977" started-at="2022-09-12T08:19:04 EDT" finished-at="2022-09-12T08:21:49 EDT">
+      <class name="clark.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="11438" started-at="2022-09-12T08:19:04 EDT" finished-at="2022-09-12T08:19:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleHomePage()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="validateTitleHomePage" duration-ms="14" started-at="2022-09-12T08:19:15 EDT" finished-at="2022-09-12T08:19:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="718" started-at="2022-09-12T08:19:15 EDT" finished-at="2022-09-12T08:19:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="9020" started-at="2022-09-12T08:19:16 EDT" finished-at="2022-09-12T08:19:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateClarkLogoHomePage()[pri:1, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="validateClarkLogoHomePage" duration-ms="98" started-at="2022-09-12T08:19:25 EDT" finished-at="2022-09-12T08:19:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClarkLogoHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="651" started-at="2022-09-12T08:19:25 EDT" finished-at="2022-09-12T08:19:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="5340" started-at="2022-09-12T08:19:26 EDT" finished-at="2022-09-12T08:19:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserIsAbleToClickOnDistributionTab()[pri:2, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="validateUserIsAbleToClickOnDistributionTab" duration-ms="5320" started-at="2022-09-12T08:19:31 EDT" finished-at="2022-09-12T08:19:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsAbleToClickOnDistributionTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.HomePageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="787" started-at="2022-09-12T08:19:36 EDT" finished-at="2022-09-12T08:19:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- clark.qa.testcases.HomePageTest -->
+      <class name="clark.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="setUp" is-config="true" duration-ms="10901" started-at="2022-09-12T08:19:39 EDT" finished-at="2022-09-12T08:19:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserCanEnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="validateUserCanEnterCredentials" duration-ms="30135" started-at="2022-09-12T08:19:50 EDT" data-provider="getData" finished-at="2022-09-12T08:20:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234@ac2.123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanEnterCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="tearDown" is-config="true" duration-ms="1069" started-at="2022-09-12T08:20:20 EDT" finished-at="2022-09-12T08:20:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="setUp" is-config="true" duration-ms="12930" started-at="2022-09-12T08:20:21 EDT" finished-at="2022-09-12T08:20:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserCanEnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="validateUserCanEnterCredentials" duration-ms="21860" started-at="2022-09-12T08:20:34 EDT" data-provider="getData" finished-at="2022-09-12T08:20:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234@ac2.124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanEnterCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="tearDown" is-config="true" duration-ms="1105" started-at="2022-09-12T08:20:56 EDT" finished-at="2022-09-12T08:20:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="setUp" is-config="true" duration-ms="9034" started-at="2022-09-12T08:20:57 EDT" finished-at="2022-09-12T08:21:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserCanEnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="validateUserCanEnterCredentials" duration-ms="13601" started-at="2022-09-12T08:21:06 EDT" data-provider="getData" finished-at="2022-09-12T08:21:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1232@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234@ac2.125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanEnterCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.LoginPageTest@5a8806ef]" name="tearDown" is-config="true" duration-ms="910" started-at="2022-09-12T08:21:20 EDT" finished-at="2022-09-12T08:21:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- clark.qa.testcases.LoginPageTest -->
+      <class name="clark.qa.testcases.WebStaurantHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:clark.qa.testcases.WebStaurantHomePageTest@6c49835d]" name="setUp" is-config="true" duration-ms="15041" started-at="2022-09-12T08:21:21 EDT" finished-at="2022-09-12T08:21:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getListOfAllItems()[pri:1, instance:clark.qa.testcases.WebStaurantHomePageTest@6c49835d]" name="getListOfAllItems" duration-ms="11771" started-at="2022-09-12T08:21:36 EDT" finished-at="2022-09-12T08:21:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfAllItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:clark.qa.testcases.WebStaurantHomePageTest@6c49835d]" name="tearDown" is-config="true" duration-ms="1019" started-at="2022-09-12T08:21:48 EDT" finished-at="2022-09-12T08:21:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- clark.qa.testcases.WebStaurantHomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
